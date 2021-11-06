@@ -1,0 +1,17 @@
+.box1{
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 8px;
+  }
+  
+.boxContainer1{
+    font-size: 24px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    right: 100px;
+    margin: auto;
+  }
+.underLine1{
+    border-bottom: 2px solid white;
+}

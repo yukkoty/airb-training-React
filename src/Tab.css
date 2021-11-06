@@ -1,0 +1,16 @@
+.box{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 8px;
+  }
+  
+.boxContainer{
+    font-size: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+.underLine{
+    border-bottom: 2px solid white;
+}
