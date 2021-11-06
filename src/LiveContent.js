@@ -32,17 +32,17 @@ function LiveContent() {
                     <img className="Imgtachi"src={osaka} />
                 <div className="box2" >
                     <div></div>
-                    <div>車で15分</div>
+                    <div></div>
                 </div>　 
                 <img className="Imgtachi"src={kyoto} />
                 <div className="box2" >
-                    <div>京都</div>
-                    <div>車で1時間</div>
+                    <div></div>
+                    <div></div>
                 </div>　 
                 <img className="Imgtachi"src={shinjyuku} />
                 <div className="box2" >
-                    <div>新宿</div>
-                    <div>車で6.5時間</div>
+                    <div></div>
+                    <div></div>
         </div>
         </div>
         </p>
