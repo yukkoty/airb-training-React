@@ -1,8 +1,4 @@
-import tokyo from './tokyo.jpeg'
-import kyoto from './kyoto.jpeg'
-import osaka from './osaka.jpeg'
-import shinjyuku from './shinjyuku.jpeg'
-import './Button.css';
+
 import { useState } from 'react';
 
 function LiveContent() {
