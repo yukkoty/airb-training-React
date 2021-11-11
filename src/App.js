@@ -6,7 +6,6 @@ import Message from './Message';
 import Button from './Button';
 import SearchBar from './SearchBar';
 import LiveContent from './LiveContent';
-import Footer from './Footer';
 
 function App() {
   return (
@@ -19,7 +18,7 @@ function App() {
         <Message/>
         <Button/>
         <LiveContent/>
-        <Footer/>
+
         <p>
           Edit <code>src/App.js</code> and save to reload.        </p>
         <a
