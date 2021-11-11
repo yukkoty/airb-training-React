@@ -9,6 +9,7 @@ import { useState } from 'react';
 function Button() {
     return (
         <p>
+            <div className="expepa">周辺エリアを探索</div>
             <div className="boxContainer2">
                     <img className="Imgtachi"src={tokyo} />
                 <div className="box2" >
