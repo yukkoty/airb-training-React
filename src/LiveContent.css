@@ -1,10 +1,10 @@
 .bottom-container{
     font-size: 0;
     position: flex;
-    float: left;
     left: 0;
     right: 0;
     margin: 0;
+    display: inline-block;
 }
 .bottom-container-title{
     font-size: 30px
@@ -29,14 +29,17 @@
     margin: 0;
 }
 .hostingwoman{
-    width: 700px;
+    width: 600px;
     height: 400px;
     position: relative;
     object-fit: cover;
     border-radius:30px;
+    left: 350px;
 }
 .hosting{
     font-size: 30px;
+    position: relative;
+    bottom:200px;
 }
 .bottomcontent2{
     font-size: 25px;
