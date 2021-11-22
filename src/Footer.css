@@ -8,13 +8,13 @@
 }
 .footerbox4{
     float: left;
-    font-size: 15px;
+    font-size: 13px;
     color: black;
-    padding-top: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 60px;
-    line-height: 30px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    line-height: 40px;
 }
 .underLine3{
     border-bottom: 2px solid black;
