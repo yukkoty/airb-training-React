@@ -12,7 +12,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={forrest2} />
+      </header>
+      <div className="App-body">
+        <img className="backGroundImg" src={forrest2} />
 
         <Tab/>
         <SearchBar/>
@@ -31,7 +33,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+        </div>
     </div>
   );
 }

@@ -38,6 +38,7 @@ function LiveContent() {
                     <img className="bottomImg2"src={instrument} />
                     <div className="bottomcontent2">注目のコレクション</div>
                  </div>
+        
         </>
         
     );

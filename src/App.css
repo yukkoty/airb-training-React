@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  font-size: 0;
 }
 
 .App-logo {
@@ -13,18 +13,15 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.App-body {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: flex;
-  justify-content: flex;
+  
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .backGroundImg{
+z-index: -1;
 position: absolute;
 }
 
