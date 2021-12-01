@@ -1,8 +1,11 @@
+import './SearchCheckin.css'
+
 const SearchCheckin=()=> {
     
     return(
-        <div>
+        <div className="search-checkin-bar">
         SearchCheckin
+        <div className="search-checkin-title">日付</div>
         </div>
         
     )
