@@ -11,6 +11,8 @@
 
 .bottomcontent{
     font-size: 25px;
+    display: flex;
+    justify-content: center;
 }
 .bottomImg{
     width: 200px;
