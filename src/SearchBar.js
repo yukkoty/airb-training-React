@@ -13,7 +13,7 @@ const SearchBar=()=> {
         setSelected(selected)
     }
     return(
-        <>
+        <div className="search-bar">
         <div className="box-container-searchbarcontent">
             <SearchBarContent title="ロケーション"　description="行き先はどちらですか？" onClick={() =>onClickHandler("Location")}/>
             <SearchBarContent title="チェックイン"　description="日付を入力" onClick={() =>onClickHandler("Checkin")}/>
@@ -24,7 +24,7 @@ const SearchBar=()=> {
         {selected == 'Checkin' &&  <SearchCheckin/>}
         {selected == 'Checkout' &&  <SearchCheckout/>}
         {selected == 'GuestNumber' &&  <GuestNumber/>}
-        </>
+        </div>
     )
 }
 export default SearchBar

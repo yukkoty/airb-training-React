@@ -1,0 +1,11 @@
+.search-checkin-bar{
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    padding:5px;
+}
+.search-checkin-title{
+    font-size: 12px;
+    color:black;
+}

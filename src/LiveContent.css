@@ -11,6 +11,8 @@
 
 .bottomcontent{
     font-size: 25px;
+    display: flex;
+    justify-content: center;
 }
 .bottomImg{
     width: 200px;
@@ -18,15 +20,14 @@
     position: relative;
     object-fit: cover;
     border-radius:30px;
+    margin: 20px;
 }
 
 .bottom-container2{
     font-size: 25px;
     float: left;
-    left: 0;
-    right: 0;
-    margin: 0;
     display: flex;
+    justify-content: center;
 }
 .hostingwoman{
     width: 600px;
@@ -36,17 +37,23 @@
     border-radius:30px;
     left: 350px;
     z-index: -1;
+    display: flex;
+    justify-content: center;
 }
 .hosting{
     font-size: 30px;
     display: flex;
-  
-    bottom: 200px; 
     color:black;
+    justify-content: center;
+    
 }
 .bottomcontent2{
     font-size: 16px;
     color:black;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
 }
 .bottomImg2{
     width: 300px;
@@ -54,4 +61,7 @@
     position: relative;
     object-fit: cover;
     border-radius:30px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
 }
