@@ -1,11 +1,18 @@
-.guest-number-bar{
-    background-color: white;
-    width: 300px;
-    height: 100px;
-    border-radius: 20px;
-    padding:5px;
+.guest-number-bar {
+  background-color: white;
+  width: 300px;
+  height: 100px;
+  border-radius: 20px;
+  padding: 5px;
 }
-.guest-number-title{
-    font-size: 12px;
-    color:black;
+.guest-number-title {
+  font-size: 12px;
+  color: black;
+}
+.guest-number-message {
+  font-size: 10px;
+  color: black;
+}
+.guest-number-row {
+  display: flex;
 }
