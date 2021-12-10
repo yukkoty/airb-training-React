@@ -16,8 +16,10 @@ const SearchBar = () => {
     setAdultNumber(adultNumber + 1);
   };
   const onClickAdultNumberDownHandler = () => {
-    setAdultNumber(adultNumber - 1);
-  };
+    if (adultNumber > 0) {
+     setAdultNumber(adultNumber - 1);
+    }
+   };
 
 
   return (
