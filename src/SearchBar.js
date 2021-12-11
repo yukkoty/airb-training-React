@@ -9,6 +9,8 @@ import GuestNumber from "./GuestNumber";
 const SearchBar = () => {
   const [selected, setSelected] = useState("");
   const [adultNumber, setAdultNumber] = useState(0);
+  const [childNumber, setChildNumber] = useState(0);
+  const [babyNumber, setBabyNumber] = useState(0);
   const onClickHandler = (selected) => {
     setSelected(selected);
   };
@@ -20,7 +22,6 @@ const SearchBar = () => {
      setAdultNumber(adultNumber - 1);
     }
    };
-
 
   return (
     <div className="search-bar">
@@ -49,7 +50,9 @@ const SearchBar = () => {
       {selected == "Location" && <SearchLocation />}
       {selected == "Checkin" && <SearchCheckin />}
       {selected == "Checkout" && <SearchCheckout />}
-      {selected == "GuestNumber" && <GuestNumber adultNumber={adultNumber} onClickAdultNumberUp={onClickAdultNumberUpHandler} onClickAdultNumberDown={onClickAdultNumberDownHandler}/>}
+      {selected == "GuestNumber" && <GuestNumber adultNumber={adultNumber} onClickAdultNumberUp={onClickAdultNumberUpHandler} onClickAdultNumberDown={onClickAdultNumberDownHandler}
+      childNumber={childNumber} onClickChildNumberUp={onClickChildNumberUpHandler} onClickChildNumberDown={onClickChildNumberDownHandler}
+      babyNumber={babyNumber} onClickBabyNumberUp={onClickBabyNumberUpHandler} onClickBabyNumberDown={onClickBabyNumberDownHandler}/>}
     </div>
   );
 };
