@@ -22,22 +22,6 @@ const SearchBar = () => {
      setAdultNumber(adultNumber - 1);
     }
    };
-  const onClickChildNumberUpHandler = () => {
-    setChildNumber(childNumber + 1);
-  };
-  const onClickChildNumberDownHandler = () => {
-    if (childNumber > 0) {
-    setChildNumber(childNumber - 1);
-      }
-  };
-  const onClickBabyNumberUpHandler = () => {
-    setBabyNumber(babyNumber + 1);
-  };
-  const onClickBabyNumberDownHandler = () => {
-    if (babyNumber > 0) {
-    setBabyNumber(babyNumber - 1);
-      }
-  };
 
   return (
     <div className="search-bar">
