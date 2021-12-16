@@ -1,3 +1,4 @@
+import React from "react";
 import SearchBarContent from "./SearchBarContent";
 import "./SearchBar.css";
 import { useState } from "react";
@@ -19,24 +20,24 @@ const SearchBar = () => {
   };
   const onClickAdultNumberDownHandler = () => {
     if (adultNumber > 0) {
-     setAdultNumber(adultNumber - 1);
+      setAdultNumber(adultNumber - 1);
     }
-   };
-   const onClickChildNumberUpHandler = () => {
+  };
+  const onClickChildNumberUpHandler = () => {
     setChildNumber(childNumber + 1);
   };
   const onClickChildNumberDownHandler = () => {
     if (childNumber > 0) {
-    setChildNumber(childNumber - 1);
-      }
+      setChildNumber(childNumber - 1);
+    }
   };
   const onClickBabyNumberUpHandler = () => {
     setBabyNumber(babyNumber + 1);
   };
   const onClickBabyNumberDownHandler = () => {
     if (babyNumber > 0) {
-    setBabyNumber(babyNumber - 1);
-      }
+      setBabyNumber(babyNumber - 1);
+    }
   };
   return (
     <div className="search-bar">
@@ -65,9 +66,19 @@ const SearchBar = () => {
       {selected == "Location" && <SearchLocation />}
       {selected == "Checkin" && <SearchCheckin />}
       {selected == "Checkout" && <SearchCheckout />}
-      {selected == "GuestNumber" && <GuestNumber adultNumber={adultNumber} onClickAdultNumberUp={onClickAdultNumberUpHandler} onClickAdultNumberDown={onClickAdultNumberDownHandler}
-      childNumber={childNumber} onClickChildNumberUp={onClickChildNumberUpHandler} onClickChildNumberDown={onClickChildNumberDownHandler}
-      babyNumber={babyNumber} onClickBabyNumberUp={onClickBabyNumberUpHandler} onClickBabyNumberDown={onClickBabyNumberDownHandler}/>}
+      {selected == "GuestNumber" && (
+        <GuestNumber
+          adultNumber={adultNumber}
+          onClickAdultNumberUp={onClickAdultNumberUpHandler}
+          onClickAdultNumberDown={onClickAdultNumberDownHandler}
+          childNumber={childNumber}
+          onClickChildNumberUp={onClickChildNumberUpHandler}
+          onClickChildNumberDown={onClickChildNumberDownHandler}
+          babyNumber={babyNumber}
+          onClickBabyNumberUp={onClickBabyNumberUpHandler}
+          onClickBabyNumberDown={onClickBabyNumberDownHandler}
+        />
+      )}
     </div>
   );
 };
